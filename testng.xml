@@ -14,5 +14,11 @@
             <package name="tests.*"/>
         </packages>
     </test>
+    <test name="IETest">
+        <parameter name="browser" value="ie" />
+        <packages>
+        <package name="tests.*"/>
+        </packages>
+    </test>
 </suite>
 
